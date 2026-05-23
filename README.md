@@ -1,44 +1,43 @@
- Emergency Department Data Analysis (MIMIC-IV)
- # Emergency Department Data Analysis
+# Emergency Department Data Analysis (MIMIC-IV)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-437299?style=for-the-badge&logo=seaborn&logoColor=white)
 
+---
 
-# Project Overview
-This project provides a comprehensive data analysis of emergency department (ED) patient stays, focusing on clinical outcomes, duration of stay, and vital signs correlations using the MIMIC-IV dataset.
+## 📝 Project Overview
+This project provides a comprehensive data analysis of emergency department (ED) patient stays, focusing on clinical outcomes and vital signs correlations using the MIMIC-IV dataset.
 
-# Methodology
+## 🛠 Methodology
 - Data Preprocessing: Merging administrative and clinical datasets using stay_id as a primary key.
 - Statistical Analysis: Assessing patient stay duration relative to diagnosis and heart rate.
-- Data Quality Audit: A rigorous assessment was conducted to identify missing data. Findings (e.g., rhythm 96.8% missing) were documented to ensure statistical integrity, opting for a transparent approach rather than synthetic imputation to preserve genuine clinical observations.
+- Data Quality Audit: Conducted to identify missing data, ensuring transparency in clinical observations.
 
-# Key Findings
-- Admission Correlation: Patients admitted to the hospital exhibit a higher average heart rate (88.11 bpm) compared to those discharged home (82.4 bpm).
+## 💡 Key Findings
+- Admission Correlation: Analysis of patient metrics and outcomes.
 - Temporal Patterns: Identified peak hours of congestion impacting patient stay duration.
-- Clinical Insight: Analysis of the top 10 diagnoses by duration provides insights into clinical workload management.
+- Clinical Insight: Analysis of the top 10 diagnoses by duration.
 
-# Tools Used
-- Python (Pandas, Seaborn, Matplotlib)
-- Jupyter Notebook / Google Colab
+## 📊 Project Visualizations
 
-# Data Acknowledgement
-The data used in this project is sourced from the MIMIC-IV database (PhysioNet). I acknowledge the creators of the MIMIC database and adhere to their Data Usage Agreement. This project utilizes the data for academic analysis purposes only.
-## Project Visualizations
-
-### Average Stay Duration by Diagnosis
+### 1. Average Stay Duration by Diagnosis
 ![Top 10 Diagnoses](download(3).png)
-This chart illustrates the top 10 diagnoses impacting patient stay duration.
 
-### Patient Load vs. Time of Day
+### 2. Patient Load vs. Time of Day
 ![Patient Load Analysis](download(4).png)
-This chart illustrates the variation in average patient stay duration across different hours of the day. The fluctuations highlight specific peak congestion times, which are critical for optimizing emergency department staffing and patient throughput.
-### Distribution of Heart Rate by Patient Disposition
+
+### 3. Distribution of Heart Rate by Patient Disposition
 ![Heart Rate Analysis](download(5).png)
-This box plot displays the distribution of heart rates categorized by patient disposition (e.g., Admitted, Home, Transferred). It highlights differences in physiological baseline measurements among various patient outcomes, providing insight into the clinical status of patients at the time of their disposition from the ED
-### Correlation Heatmap: Duration vs. Heart Rate
+
+### 4. Correlation Heatmap: Duration vs. Heart Rate
 ![Correlation Analysis](download(6).png)
-This heatmap visualizes the correlation between patient stay duration and heart rate. The analysis shows a negligible relationship (-0.09) between these two variables, suggesting that heart rate is not a primary driver of stay duration in this dataset.
-## Source Code
+
+---
+
+## 💻 Source Code
 You can view the full analysis notebook here: [Click here to view the notebook](Untitled2.ipynb)
+
+## 📜 Data Acknowledgement
+The data used in this project is sourced from the MIMIC-IV database (PhysioNet). I acknowledge the creators of the MIMIC database and adhere to their Data Usage Agreement. This project utilizes the data for academic analysis purposes only.
