@@ -23,16 +23,16 @@ This project provides a comprehensive data analysis of emergency department (ED)
 ## 📊 Project Visualizations
 
 ### 1. Average Stay Duration by Diagnosis
-![Top 10 Diagnoses](download(3).png)
+![Top 10 Diagnoses](download%20(3).png)
 
 ### 2. Patient Load vs. Time of Day
-![Patient Load Analysis](download(4).png)
+![Patient Load Analysis](download%20(4).png)
 
 ### 3. Distribution of Heart Rate by Patient Disposition
-![Heart Rate Analysis](download(5).png)
+![Heart Rate Analysis](download%20(5).png)
 
 ### 4. Correlation Heatmap: Duration vs. Heart Rate
-![Correlation Analysis](download(6).png)
+![Correlation Analysis](download%20(6).png)
 
 ---
 
