@@ -31,3 +31,6 @@ This chart illustrates the variation in average patient stay duration across dif
 ### Distribution of Heart Rate by Patient Disposition
 ![Heart Rate Analysis](download(5).png)
 This box plot displays the distribution of heart rates categorized by patient disposition (e.g., Admitted, Home, Transferred). It highlights differences in physiological baseline measurements among various patient outcomes, providing insight into the clinical status of patients at the time of their disposition from the ED
+### Correlation Heatmap: Duration vs. Heart Rate
+![Correlation Analysis](download(6).png)
+This heatmap visualizes the correlation between patient stay duration and heart rate. The analysis shows a negligible relationship (-0.09) between these two variables, suggesting that heart rate is not a primary driver of stay duration in this dataset.
