@@ -24,8 +24,7 @@ The data used in this project is sourced from the MIMIC-IV database (PhysioNet).
 ### Average Stay Duration by Diagnosis
 ![Top 10 Diagnoses](download(3).png)
 This chart illustrates the top 10 diagnoses impacting patient stay duration.
+
 ### Patient Load vs. Time of Day
-![Patient Load Analysis](download(4).png)
-This chart illustrates the variation in average patient stay duration across different hours of the day. The fluctuations highlight specific peak congestion times, which are critical for optimizing emergency department staffing and patient throughput.### Patient Load vs. Time of Day
 ![Patient Load Analysis](download(4).png)
 This chart illustrates the variation in average patient stay duration across different hours of the day. The fluctuations highlight specific peak congestion times, which are critical for optimizing emergency department staffing and patient throughput.
