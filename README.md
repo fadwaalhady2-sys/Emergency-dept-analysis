@@ -34,3 +34,5 @@ This box plot displays the distribution of heart rates categorized by patient di
 ### Correlation Heatmap: Duration vs. Heart Rate
 ![Correlation Analysis](download(6).png)
 This heatmap visualizes the correlation between patient stay duration and heart rate. The analysis shows a negligible relationship (-0.09) between these two variables, suggesting that heart rate is not a primary driver of stay duration in this dataset.
+## Source Code
+You can view the full analysis notebook here: [Click here to view the notebook](Untitled2.ipynb)
