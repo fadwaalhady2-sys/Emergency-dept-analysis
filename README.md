@@ -1,4 +1,10 @@
  Emergency Department Data Analysis (MIMIC-IV)
+ # Emergency Department Data Analysis
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)
+
 
 # Project Overview
 This project provides a comprehensive data analysis of emergency department (ED) patient stays, focusing on clinical outcomes, duration of stay, and vital signs correlations using the MIMIC-IV dataset.
