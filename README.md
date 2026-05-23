@@ -28,3 +28,6 @@ This chart illustrates the top 10 diagnoses impacting patient stay duration.
 ### Patient Load vs. Time of Day
 ![Patient Load Analysis](download(4).png)
 This chart illustrates the variation in average patient stay duration across different hours of the day. The fluctuations highlight specific peak congestion times, which are critical for optimizing emergency department staffing and patient throughput.
+### Distribution of Heart Rate by Patient Disposition
+![Heart Rate Analysis](download(5).png)
+This box plot displays the distribution of heart rates categorized by patient disposition (e.g., Admitted, Home, Transferred). It highlights differences in physiological baseline measurements among various patient outcomes, providing insight into the clinical status of patients at the time of their disposition from the ED
