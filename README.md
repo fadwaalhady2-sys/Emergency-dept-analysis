@@ -19,3 +19,8 @@ This project provides a comprehensive data analysis of emergency department (ED)
 
 # Data Acknowledgement
 The data used in this project is sourced from the MIMIC-IV database (PhysioNet). I acknowledge the creators of the MIMIC database and adhere to their Data Usage Agreement. This project utilizes the data for academic analysis purposes only.
+## Project Visualizations
+
+### Average Stay Duration by Diagnosis
+![Top 10 Diagnoses](download(3).png)
+This chart illustrates the top 10 diagnoses impacting patient stay duration.
